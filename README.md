@@ -3,13 +3,15 @@ Modern browser APIs allow to transfer the concept of [MixARE](http://www.mixare.
 
 [![Mixare Demo Video](img/Mixare4Youtube.png)](https://www.youtube.com/watch?v=AA2LLqb4TSM)
 
-## Read Link Parameter
+## Read Link Parameters with linkparam.js
 Assume you want to display a specific geolocated number of 3D model (e.g. icons, 3D scans or just primitives boxes, spheres, planes, tubes) in an Augemented Reality scene, then these geolocated set of 3D model are stored in JSON file stored on a web server ___https://www.example.com/mymixare.json___. The parameter call of Mixare4Browser will look like this
 
 :: https://niebert.github.io/Mixare4Browser/index.html?jsonurl=https%3A%2F%2Fwww.example.com%2Fmymixare.json
 
 The library ___linkparam.js___ will extract the ___jsonurl___  from the link above and the key-value pair will be
-:: ___jsonurl="https://www.example.com/mymixare.json"___.
+:: ___jsonurl="https://www.example.com/mymixare.json"___. Details about
+
+:: https://niebert.github,io/LinkParam
 
 ## Augmented Reality Scene with AFrame
 The framework [AFrame](https://aframe.io/examples/showcase/sky/) will be used to control the webbased virtual reality scene.
