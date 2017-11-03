@@ -9,7 +9,7 @@ Assume you want to display a specific geolocated number of 3D model (e.g. icons,
 :: https://niebert.github.io/Mixare4Browser/index.html?jsonurl=https%3A%2F%2Fwww.example.com%2Fmymixare.json
 
 The library ___linkparam.js___ will extract the ___jsonurl___  from the link above and the key-value pair will be
-:: ___jsonurl="https://www.example.com/mymixare.json"___. Details about
+:: ___jsonurl="https://www.example.com/mymixare.json"___. Details about the library can be found at URL:
 
 :: https://niebert.github,io/LinkParam
 
@@ -17,4 +17,4 @@ The library ___linkparam.js___ will extract the ___jsonurl___  from the link abo
 The framework [AFrame](https://aframe.io/examples/showcase/sky/) will be used to control the webbased virtual reality scene.
 
 ## AR.js control displacement
-Control displacment of the 3D models in the camera image of mobile devices is performed by [AR.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md). The framework AR.js recognizes a marker image in the camera live stream. A marker defines a coordinate system in the threedimensional space. Origine of the coordinate system is placed in the center of marker (e.g. the ___Hiro___-marker). Turning and moving the marker moves the 3D object attached to the coordinate system of marker. On the other end we AFrame has a coordinate system in which the 3D object are moved according to displacement of the marker.
+Control displacment of the 3D models in the camera image of mobile devices is performed by [AR.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md). The framework AR.js recognizes a marker image in the camera live stream. A marker defines a coordinate system in the threedimensional space. Origine of the coordinate system is placed in the center of marker (e.g. the ___Hiro___-marker). Turning and moving the marker moves the 3D object attached to the coordinate system of marker. On the other end we [AFrame](https://aframe.io) has a coordinate system in which the 3D object are moved according to displacement of the marker.
