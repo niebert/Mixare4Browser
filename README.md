@@ -18,3 +18,9 @@ The framework [AFrame](https://aframe.io/examples/showcase/sky/) will be used to
 
 ## AR.js control displacement
 Control displacment of the 3D models in the camera image of mobile devices is performed by [AR.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md). The framework AR.js recognizes a marker image in the camera live stream. A marker defines a coordinate system in the threedimensional space. Origine of the coordinate system is placed in the center of marker (e.g. the ___Hiro___-marker). Turning and moving the marker moves the 3D object attached to the coordinate system of marker. On the other end we [AFrame](https://aframe.io) has a coordinate system in which the 3D object are moved according to displacement of the marker.
+
+## Browser Check
+With the URL https://whatwebcando.today/ you can check your browser on your mobile device if it support the relevant APIs in category "Location and Position" for
+* Geolocation,
+* Device Orientation,
+* Device Motion.
