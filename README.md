@@ -10,7 +10,7 @@ Assume you want to display a specific geolocated number of 3D model (e.g. icons,
   https://niebert.github.io/Mixare4Browser/index.html?jsonurl=https%3A%2F%2Fwww.example.com%2Fmymixare.json
 
 The library ___linkparam.js___ will extract the ___jsonurl___  from the link above and the key-value pair will be
-  ___jsonurl="https://www.example.com/mymixare.json"___. Details about the library can be found at URL:
+  <tt>jsonurl="https://www.example.com/mymixare.json"</tt>. Details about the library can be found at URL:
 
   https://niebert.github,io/LinkParam
 
