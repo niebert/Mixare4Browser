@@ -12,7 +12,7 @@ Assume you want to display a specific geolocated number of 3D model (e.g. icons,
 The library ___linkparam.js___ will extract the ___jsonurl___  from the link above and the key-value pair will be
   <tt>jsonurl="https://www.example.com/mymixare.json"</tt>. Details about the library can be found at URL:
 
-  https://niebert.github.io/LinkParam
+  https://www.github.com/niebert/LinkParam
 
 ## Augmented Reality Scene with AFrame
 The framework [AFrame](https://aframe.io/examples/showcase/sky/) will be used to control the webbased virtual reality scene.
